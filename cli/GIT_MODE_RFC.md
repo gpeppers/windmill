@@ -67,6 +67,8 @@ branches:
 
 ```
 
+When doing a pull/push, for all the items listed, instead of using the item at expected path, we have the item at `<path>.branchName.<extension>`
+
 ## Ephemeral workspaces
 
 Commands:
