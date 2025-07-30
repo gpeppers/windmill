@@ -45,8 +45,6 @@ branches:
 
 ## Git sync overrides
 
-## Workspace specific Overrides
-
 ```yaml
 branches:
   branchName:
