@@ -45,13 +45,18 @@ branches:
 
 ## Git sync overrides
 
-We rename `overrides` as `gitSyncOverrides`
-`overrides -> gitSyncOverrides`
+## Workspace specific Overrides
 
 ```yaml
-gitSyncOverrides:
-  baseUrl:workspace_id:repo:
-    skipVariables: true
+branches:
+  branchName:
+    ...
+    overrides:
+       skipResources: false
+       ...
+    promotionOverrides:
+       skipResources: true
+       ...
 ```
 
 ## Workspace specific items
